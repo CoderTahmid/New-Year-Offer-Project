@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-year-wish{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/Banner\ Image.png');
+    margin: 50px 120px;
+    background-size: cover;
+}
+.wish-texts{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first-text{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+#second-text{
+    font-size: 72px;
+    font-weight: 700;
+}
