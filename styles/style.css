@@ -6,9 +6,10 @@ body{
 .new-year-wish{
     width: 1320px;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/Banner\ Image.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('/assets/images/Banner\ Image.png');
     margin: 50px 120px;
     background-size: cover;
+    border-radius: 16px;
 }
 .wish-texts{
     height: 100%;
@@ -27,4 +28,106 @@ body{
 #second-text{
     font-size: 72px;
     font-weight: 700;
+}
+#fist-offer-span{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+    display: block;
+}
+#second-offer-span{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: medium;
+    display: block;
+    margin-bottom: 16px;
+}
+#third-offer-span{
+    font-size: 48px;
+    font-weight: bold;
+}
+.offer-section{
+    width: 802.9px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+.offer-info{
+    margin-bottom: 48px;
+}
+.party-section{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,1)), url('/assets/images/Vectorrr.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px auto;
+}
+#wc-msg{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+#wc-msg-description{
+    font-size: 18px;
+    color: white;
+    opacity: 80%;
+}
+.join{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 142px;
+    margin-top: 58px;
+}
+.party-wc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+.time-date{
+    height: 482px;
+    width: 1320px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(0,0,0,0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-red{
+    color: red;
+}
+.date-msg{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.join-btn{
+    border-radius: 8px;
+    background-color: red;
+    height: 56px;
+    width: 167px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 48px;
+}
+
+/* Common styles */
+
+.inter-font{
+    font-family: "Inter", sans-serif;
 }
