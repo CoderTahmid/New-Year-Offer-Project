@@ -105,9 +105,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.color-red{
-    color: red;
-}
 .date-msg{
     font-size: 32px;
     font-weight: 600;
@@ -125,9 +122,54 @@ body{
     padding: 16px 32px;
     margin-top: 48px;
 }
-
+.comming-soon-offer{
+    width: 1320px;
+    height: 463px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.p1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.comming-soon-offer > .offer-msg > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px ;
+}
+.p2{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+}
+.img-container{
+    border-radius: 50%;
+    border: 16px solid red;
+    width: 431px;
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comming-soon-offer > .offer-msg-two > h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.comming-soon-offer > .offer-msg-two > img{
+    height: 140px;
+    width: 140px;
+}
 /* Common styles */
 
 .inter-font{
     font-family: "Inter", sans-serif;
 }
+.color-red{
+    color: red;
+}
+
