@@ -164,6 +164,56 @@ body{
     height: 140px;
     width: 140px;
 }
+.holidays-sale{
+    width: 1320px;
+    height: 986.07px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p3{
+    color: #070211; 
+}
+.holidays-sale > .holiday-msg >h1{
+    font-size: 72px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holiday-msg{
+    text-align: center;
+}
+.img-one{
+    margin-bottom: 0px;
+}
+.red-box-img-one{
+    width: 796.46px;
+    height: 662.07px;
+    position: absolute;
+    bottom: 0px;
+}
+.red-box-container{
+    background-image: url('/assets/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 229px;
+    position: relative;
+}
+.red-box-img-two{
+    height: 305.69px;
+    width: 305.69px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-box-container > .red-box-img-two > img {
+    height: 220.05px;
+    width: 220.05px;
+    position: absolute;
+    left: 1021px;
+    bottom: 384.38px;
+}
 /* Common styles */
 
 .inter-font{
@@ -172,4 +222,6 @@ body{
 .color-red{
     color: red;
 }
-
+.merriweather-font{
+    font-family: "Merriweather", serif;
+}
